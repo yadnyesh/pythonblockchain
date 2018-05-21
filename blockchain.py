@@ -8,7 +8,8 @@ def add_value(transaction_amount, last_transaction=get_last_blockchain_value()):
   print(blockchain)
 
 
-add_value(2, [1])
+tx_amount = input('Please enter the transaction amount: ')
+add_value(float(tx_amount), [1])
 add_value(0.9, get_last_blockchain_value())
 add_value(10.89, get_last_blockchain_value())
 
