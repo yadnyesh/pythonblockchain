@@ -14,6 +14,3 @@ tx_amount = get_user_input()
 add_value(float(tx_amount), [1])
 add_value(0.9, get_last_blockchain_value())
 add_value(10.89, get_last_blockchain_value())
-
-
-
