@@ -20,3 +20,7 @@ add_value(0.9, get_last_blockchain_value())
 
 
 add_value(10.89, get_last_blockchain_value())
+
+for block in blockchain:
+  print('Outputting Block')
+  print(block)
